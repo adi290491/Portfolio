@@ -45,10 +45,13 @@
             <tr>
                 <td>
                     <div>
-                    </p><a href="{{project.url}}">{{ project.name }}</a></td>
+                    <p><a href="{{project.url}}">{{ project.name }}</a></p>
                     <p>{{ project.description }}</p>
                     </div>
-                <td>{{ project.tech_stack }}</td>                
+                </td>
+                <td>
+                    {{ project.tech_stack }}
+                </td>                
             </tr>
             {% endfor %}
         </table>
