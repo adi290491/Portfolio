@@ -40,9 +40,10 @@
             {% for project in site.data.projects %}
             <li>
                 <h3>{{ project.name }}</h3>
-                <p>{{ project.description }}</p>
-                <p><strong>Tech Stack:</strong> {{ project.tech_stack }}</p>
+                <span><strong>Tech Stack:</strong> {{ project.tech_stack }}</span>
                 <a href="{{ project.url }}" target="_blank">View on GitHub</a>
+                <p>{{ project.description }}</p>
+                
             </li>
             {% endfor %}
         </ul>
