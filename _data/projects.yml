@@ -1,0 +1,25 @@
+- name: Image Processing Service
+  description: Backend service for image processor.
+  tech_stack: "Golang, Gin-Gonic, AWS"
+  url: https://github.com/adi290491/image-processor
+
+- name: Blog Service
+  description: Blog service to manage user blog posts - Demo API.
+  tech_stack: "Go, gRPC, MongoDB"
+  url: https://github.com/adi290491/Blog-Service
+
+- name: TinyUrl
+  description: Microservices for shortening long urls with user management
+  tech_stack: "Java, Springboot, Redis, Postgres, Spring Cloud"
+  url: https://github.com/adi290491/TinyUrl
+
+- name: JSON Parser
+  description: Custom lexer and parser implemented to parse JSON input. Handles file and raw strings
+  tech_stack: "Go"
+  url: https://github.com/adi290491/json-parser
+
+- name: Task Tracker 
+  description: Basic CLI application using Go to manage daily tasks
+  tech_stack: "Go"
+  url: https://github.com/adi290491/Task-Tracker-CLI
+  
