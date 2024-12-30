@@ -3,7 +3,7 @@
     padding: 0;
   }
   
-  .main-content ul li {
+.main-content ul li {
     margin-bottom: 20px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
@@ -26,11 +26,11 @@
     text-decoration: underline;
   }
 
-header {
-  text-align: center;
-  padding: 20px;
-  background-color: #f8f9fa; /* Light gray background */
-}
+// header {
+//   text-align: center;
+//   padding: 20px;
+//   background-color: #f8f9fa; /* Light gray background */
+// }
 
 .profile-container {
   display: inline-block;
@@ -45,3 +45,13 @@ header {
   border: 3px solid #007BFF; /* Optional border for styling */
   margin-bottom: 15px;
 }
+
+// header h1 {
+//   margin: 10px 0;
+//   font-size: 2rem;
+// }
+
+// header p {
+//   margin: 0;
+//   color: #6c757d;
+// }
