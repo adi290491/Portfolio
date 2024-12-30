@@ -7,7 +7,7 @@ Computer Science, Masters
 Software Developer @ Tata Consultancy Services
 
 ### Projects
-URL SHORTENER
+URL SHORTENER [https://github.com/adi290491/TinyUrl]
 
 
 
