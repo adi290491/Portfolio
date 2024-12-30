@@ -23,8 +23,11 @@
               {% endfor %}
         </div>
         <div>
-            <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-            <p>Software Developer | Tech Enthusiast </p>
+            <div class="profile-container">
+                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile Picture" class="profile-picture">
+                <h1>{{ site.title }}</h1>
+                <p>{{ site.description }}</p>
+              </div>
         </div>
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
