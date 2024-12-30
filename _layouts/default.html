@@ -33,6 +33,15 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
+        <section>
+            <h3>Education Background</h3>
+            {% for education in site.data.education %}
+            <div>
+                <p class="inline"><strong> {{ education.name }} </strong> <span> {{education.insitute }}</span></p>
+                <p class="inline"><strong> {{ education.duration }} </p>
+            </div>
+        </section>
+
       <h3>Projects</h3>
         <table>
             <tr>
