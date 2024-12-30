@@ -19,12 +19,7 @@
     <header class="page-header" role="banner">
         <div>
               {% for link in site.links %}
-              <a href="{{ link.url }}" target="_blank">
-                {% if link.icon %}
-                  <i class="{{ link.icon }}"></i>
-                {% endif %}
-                {{ link.name }}
-              </a>
+                <a href="{{ link.url }}" class="btn {{ link.icon }}">{{ link.name }}</a>
               {% endfor %}
         </div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
