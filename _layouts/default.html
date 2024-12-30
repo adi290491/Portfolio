@@ -35,18 +35,33 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
 
-      <h2>Projects</h2>
-        <ul>
+      <h3>Projects</h3>
+        <table>
+            <tr>
+                <th>Projects</th>
+                <th>Techstack</th>
+            </tr>
+            {% for project in site.data.projects %}
+            <tr>
+                <td>
+                    <div>
+                    </p><a href="{{project.url}}">{{ project.name }}</a></td>
+                    <p>{{ project.description }}</p>
+                    </div>
+                <td>{{ project.tech_stack }}</td>                
+            </tr>
+            {% endfor %}
+        </table>
+        <!-- <ul>
             {% for project in site.data.projects %}
             <li>
-                <h3>{{ project.name }}</h3>
-                <span><strong>Tech Stack:</strong> {{ project.tech_stack }}</span>
+                <h4>{{ project.name }}</h4><span><strong>Tech Stack:</strong> {{ project.tech_stack }}</span>
                 <a href="{{ project.url }}" target="_blank">View on GitHub</a>
                 <p>{{ project.description }}</p>
                 
             </li>
             {% endfor %}
-        </ul>
+        </ul> -->
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
