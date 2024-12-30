@@ -1,4 +1,4 @@
-# Software Developer
+# Aditya Sawant
 
 ### Education
 Computer Science, Masters
