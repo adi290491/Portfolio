@@ -1,2 +1,11 @@
 title: Aditya Sawant
 theme: jekyll-theme-cayman
+
+# Links
+links:
+  - name: Resume
+    url: https://drive.google.com/file/d/10EuQHWXmkuHVNgbLgyqj_151hh9IZXis/view?usp=drive_link
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/adityassawant/
+  - name: GitHub
+    url: https://github.com/290491
