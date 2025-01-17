@@ -1,0 +1,12 @@
+{
+  "aboutMe": "I am a Software Developer with over 8 years of experience, blending a passion for programming and a constant drive for learning. My journey began as an Android developer, building health applications, and quickly evolved as I explored front-end development, crafting Progressive Web Apps (PWAs) for clients. This exploration solidified my love for technology and learning, motivating me to pursue a Master’s degree in Computer Science at Binghamton University. Here, I deepened my expertise in software development and machine learning.\n\nAfter graduation, my career took a new direction. While my aspiration was to specialize as a Machine Learning Engineer, I pivoted strategically to backend development due to the opportunities available at the time. This shift allowed me to strengthen my backend engineering skills and deliver impactful results for multiple clients. Currently working at Tata Consultancy Services, I have gained extensive experience tackling complex challenges, providing reliable solutions, and earning the trust of clients.\n\nWhat remains constant throughout my career is a relentless curiosity and a commitment to grow as a developer. While backend engineering is my current focus, I maintain a keen interest in Machine Learning and continue to explore ways to integrate it into my work. My diverse experience, spanning Android, front-end, backend, and machine learning, reflects not just my technical expertise but also my adaptability and determination to excel.",
+  "expertise": "Backend development\n- Mobile development\n- Machine learning\n- Frontend development\n\n",
+  "skills": {
+    "languages": "Java, Golang, Python, Kotlin, Angular",
+    "frameworks-technologies": "Springboot, Django, Neural Networks, Android, Recommendation Systems, Generative AI",
+    "database": "Postgres, OracleDB, MongoDB, MySQL",
+    "others": "Google Cloud Platform, Kafka, Docker, Kubernetes, Git"
+  },
+  "linkedin": "https://www.linkedin.com/in/adityassawant/",
+  "github": "https://github.com/adi290491"
+}
