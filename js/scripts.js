@@ -81,7 +81,7 @@ const loadModal = (category, data, elementId) => {
 
 const fetchProjects = async () => {
     try {
-        const response = await fetch("portfolio/json/projects.json");
+        const response = await fetch("json/projects.json");
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         cachedProjects = await response.json();
     } catch (error) {
