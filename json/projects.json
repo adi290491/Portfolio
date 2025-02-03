@@ -15,8 +15,7 @@
     "url": "https://github.com/adi290491/Blog-Service"
     },
     {
-      "name"
-      : "Image Processing Service",
+      "name": "Image Processing Service",
       "description": "Backend service for image processor.",
       "tech_stack": "Golang, Gin-Gonic, AWS",
       "url": "https://github.com/adi290491/image-processor"
